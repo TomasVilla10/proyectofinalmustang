@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: black; }
+
+header {
+  background-color: #0a0a0a;
+  text-decoration: none; }
+
+header ul li a {
+  text-decoration: none;
+  font-size: 30px;
+  color: #7c0202;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: oblique;
+  padding: 10%;
+  justify-content: center;
+  text-decoration: none; }
+
+header ul {
+  display: flex;
+  list-style: none;
+  text-decoration: none; }
+
+header ul li {
+  padding: 2%; }
+
+header ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #7c0202;
+  padding: 5%;
+  transition: 0.5s ease; }
+
+header ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #7c0202;
+  padding: 5%;
+  transition: 0.5s ease; }
+
+header ul:hover li a {
+  text-decoration: none;
+  color: #940d0d; }
+
+ul:hover li a:not(:hover) {
+  text-decoration: none;
+  color: #fa0101;
+  opacity: 0.3;
+  filter: blur(3px); }
+
+footer {
+  background-color: #0f0f0f; }
+
+nav a {
+  margin: 2%;
+  display: inline;
+  color: #7c0202;
+  font-size: 120%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: oblique;
+  padding: 1rem; }
+
+h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: 2px 1px 0.5px #4b1616;
+  font-size: 20px;
+  color: #7c0202;
+  background-color: #070707;
+  text-align: center;
+  border-color: #7e1e1e;
+  border-radius: 20px; }
+
+h3 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 19px;
+  color: #7c0202; }
+
+.cabrio {
+  padding-left: 25%; }
+
+iframe {
+  margin-right: 10%;
+  margin-left: 25%; }
+
+.carru {
+  padding: 3%;
+  margin: auto;
+  border-radius: 15%;
+  border-color: #4b0404; }
+
+.imagenes {
+  background-color: #303030;
+  margin: 3%;
+  padding: 0.5%;
+  border-radius: 3%;
+  border-color: #fa0606; }
+
+.img {
+  border-radius: 15%;
+  padding: 10%; }
+
+h1 {
+  text-align: center;
+  text-decoration: solid;
+  font-size: 100px;
+  color: rgba(104, 1, 1, 0.575);
+  text-shadow: 1px 1px 1px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
